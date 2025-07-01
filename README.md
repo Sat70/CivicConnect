@@ -1,4 +1,4 @@
-# 🏙️ Civic Connect
+# 🏙️ Civic Connect (Under Progress)
 
 > **Empowering citizens to build cleaner, smarter cities through technology and community collaboration.**
 
