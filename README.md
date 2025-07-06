@@ -350,12 +350,10 @@ Content-Type: application/json
 ## 🖼️ Screenshots
 
 ### **Landing Page**
-<!-- ![Landing Page](./docs/screenshots/landing-page.png) -->
-*Coming Soon: Modern hero section with animated elements*
+[Landing Page](/Project-Preview/LandingPage.mp4)
 
 ### **Issue Reporting**
-<!-- ![Issue Reporting](./docs/screenshots/report-issue.png) -->
-*Coming Soon: Interactive map with location detection and form*
+[Issue Reporting](/Project_Preview/reportIssuePage.png)
 
 ### **Dashboard**
 <!-- ![Dashboard](./docs/screenshots/dashboard.png) -->
