@@ -461,11 +461,11 @@ copies or substantial portions of the Software.
 ## 📬 Contact & Support
 
 ### **Author**
-- **Name**: [Satam Gupta]
-- **Email**: [satamgupta01@gmail.com]
-- **GitHub**: [Sat70](https://github.com/Sat70)
-- **LinkedIn**: (https://www.linkedin.com/in/satam-gupta-91839624b/)
-- **Portfolio**: (https://www.satamgupta.xyz)
+- **Name**: Satam Gupta
+- **Email**: satamgupta01@gmail.com
+- **GitHub**: [Sat70]https://github.com/Sat70
+- **LinkedIn**: https://www.linkedin.com/in/satam-gupta-91839624b/
+- **Portfolio**: https://www.satamgupta.xyz
 
 
 ---
