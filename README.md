@@ -350,7 +350,7 @@ Content-Type: application/json
 ## 🖼️ Screenshots
 
 ### **Landing Page**
-![Landing Page](./preview/LandingPage.mp4)
+![Landing Page](./preview/landingPage.png)
 *Modern hero section with animated elements and smooth transitions*
 
 ### **Issue Reporting**
