@@ -350,7 +350,7 @@ Content-Type: application/json
 ## 🖼️ Screenshots
 
 ### **Landing Page**
-[Landing Page](./Project%20Preview/LandingPage.mp4)
+[▶️ Watch Landing Page Preview](./preview/LandingPage.mp4)
 
 ### **Issue Reporting**
 [Issue Reporting](/Project_Preview/reportIssuePage.png)
