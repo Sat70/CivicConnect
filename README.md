@@ -414,8 +414,6 @@ We welcome contributions from the community! Here's how you can help:
 - Update documentation as needed
 - Ensure all tests pass before submitting
 
-### **Code of Conduct**
-Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming environment for all contributors.
 
 ---
 
@@ -463,17 +461,12 @@ copies or substantial portions of the Software.
 ## 📬 Contact & Support
 
 ### **Author**
-- **Name**: [Your Name]
-- **Email**: [your.email@example.com]
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **Portfolio**: [Your Portfolio Website](https://yourportfolio.com)
+- **Name**: [Satam Gupta]
+- **Email**: [satamgupta01@gmail.com]
+- **GitHub**: [Sat70](https://github.com/Sat70)
+- **LinkedIn**: (https://www.linkedin.com/in/satam-gupta-91839624b/)
+- **Portfolio**: (https://www.satamgupta.xyz)
 
-### **Support**
-- 📧 **Email Support**: support@civicconnect.com
-- 💬 **Discord Community**: [Join our Discord](https://discord.gg/civicconnect)
-- 📖 **Documentation**: [docs.civicconnect.com](https://docs.civicconnect.com)
-- 🐛 **Issue Tracker**: [GitHub Issues](https://github.com/yourusername/civic-connect/issues)
 
 ---
 
@@ -503,4 +496,4 @@ Special thanks to:
 
 ---
 
-*Last updated: December 2024*
+*Last updated: July 2025*
