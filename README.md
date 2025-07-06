@@ -353,7 +353,7 @@ Content-Type: application/json
 [▶️ Watch Landing Page Preview](./preview/LandingPage.mp4)
 
 ### **Issue Reporting**
-[Issue Reporting](/Project_Preview/reportIssuePage.png)
+[Issue Reporting Page](./preview/reportIssuePage.png)
 
 ### **Dashboard**
 <!-- ![Dashboard](./docs/screenshots/dashboard.png) -->
