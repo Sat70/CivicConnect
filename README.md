@@ -350,18 +350,27 @@ Content-Type: application/json
 ## 🖼️ Screenshots
 
 ### **Landing Page**
-[▶️ Watch Landing Page Preview](./preview/LandingPage.mp4)
+![Landing Page](./preview/LandingPage.mp4)
+*Modern hero section with animated elements and smooth transitions*
 
 ### **Issue Reporting**
-[Issue Reporting Page](./preview/reportIssuePage.png)
+![Issue Reporting](./preview/reportIssuePage.png)
+*Interactive map with location detection and comprehensive issue reporting form*
 
 ### **Dashboard**
-<!-- ![Dashboard](./docs/screenshots/dashboard.png) -->
-*Coming Soon: Comprehensive dashboard with statistics and management*
+![Dashboard Overview](./preview/DashBoard1.png)
+*Main dashboard with statistics and issue overview*
 
-### **Mobile Experience**
-<!-- ![Mobile View](./docs/screenshots/mobile-view.png) -->
-*Coming Soon: Responsive design across all devices*
+![Dashboard Reports](./preview/DashBoard2.png)
+*My Reports section with filtering and management options*
+
+![Dashboard Timeline](./preview/DashBoard3.png)
+*Timeline view showing user activities and issue progress*
+
+### **User Info**
+![User Profile](./preview/userInfoPage.png)
+*User profile management with comprehensive information editing*
+
 
 ---
 
