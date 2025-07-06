@@ -1,95 +1,142 @@
-# 🏙️ Civic Connect (Under Progress)
+# 🏙️ Local Civic Issue Reporter & Resolver Platform
 
-> **Empowering citizens to build cleaner, smarter cities through technology and community collaboration.**
+<div align="center">
+  <img src="./public/civic-icon.png" alt="Civic Connect Logo" width="80" height="80">
+  <h3>Empowering citizens to build cleaner, smarter cities through technology and community collaboration.</h3>
+  
+  [![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat&logo=react)](https://reactjs.org/)
+  [![Node.js](https://img.shields.io/badge/Node.js-Latest-339933?style=flat&logo=node.js)](https://nodejs.org/)
+  [![MongoDB](https://img.shields.io/badge/MongoDB-8.0.3-47A248?style=flat&logo=mongodb)](https://www.mongodb.com/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.1.11-38B2AC?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+</div>
 
-Civic Connect is a modern, responsive web application that bridges the gap between citizens and civic bodies by simplifying how local issues are reported and resolved. Built with React and featuring stunning UI animations, secure authentication, and an intuitive user experience.
+---
 
-![Civic Connect Hero](./docs/screenshots/hero-section.png)
-*Beautiful hero section with custom cursor effects and smooth animations*
+## 📝 Overview
 
-## ✨ Features
+**Civic Connect** is a modern, full-stack web application that revolutionizes how citizens report and resolve local civic issues. From potholes and garbage collection to street lighting and drainage problems, our platform provides an intuitive interface for community engagement with local authorities.
 
-### 🔐 **Authentication System**
-- **Secure User Registration** with email validation and password strength indicators
-- **JWT-based Login/Logout** with persistent sessions
-- **Protected Routes** that require authentication
-- **Password Security** with bcrypt hashing (12 salt rounds)
-- **Real-time Form Validation** with user-friendly error messages
+### 🎯 Key Highlights
+- **Interactive Map Integration** with real-time location detection
+- **Comprehensive Issue Reporting** with image uploads and GPS coordinates
+- **Professional PDF Report Generation** for official documentation
+- **Advanced Dashboard** with analytics and issue management
+- **Responsive Design** that works seamlessly across all devices
+- **Dark/Light Mode** with global theme synchronization
 
-### 🎨 **Interactive UI/UX**
-- **Custom Animated Cursor** with soft glow effects and magnetic hover interactions
-- **Smooth Scroll Animations** that fade in and slide up elements as they enter the viewport
-- **Dark/Light Mode Toggle** with seamless transitions
-- **Responsive Design** optimized for all devices (desktop, tablet, mobile)
-- **Accessibility Features** including reduced motion support and high contrast mode
+---
 
-### 📊 **Dashboard Features**
-- **User Profile Management** with engagement statistics
-- **Activity Tracking** showing reported issues and community impact
-- **Quick Action Buttons** for reporting issues and browsing maps
-- **Civic Engagement Metrics** including points and resolved issues
+## 🚀 Features
 
-### 🎯 **Additional Features**
-- **Mobile-First Design** with touch-friendly interactions
-- **Progressive Enhancement** with graceful fallbacks
-- **Loading States** and error handling throughout the app
-- **SEO Optimized** with proper meta tags and semantic HTML
+### 🔐 **Authentication & Security**
+- **JWT-based Authentication** with secure token management
+- **Protected Routes** and role-based access control
+- **Password Encryption** using bcrypt with 12 salt rounds
+- **Session Persistence** with automatic token refresh
 
-## 🚀 Live Demo
+### 🗺️ **Interactive Map System**
+- **Real-time Location Detection** using Geolocation API
+- **Interactive Leaflet.js Maps** with custom markers
+- **Marker Clustering** for better performance with many issues
+- **Reverse Geocoding** for automatic address population
+- **Color-coded Issue Status** (Pending, In Progress, Resolved)
 
-🔗 **[View Live Demo](https://your-demo-link.vercel.app)** *(Replace with your actual deployment URL)*
+### 📋 **Issue Reporting & Management**
+- **Comprehensive Report Form** with 10+ predefined categories
+- **Image Upload System** (up to 5 images, 5MB each)
+- **GPS Coordinate Capture** with precise location mapping
+- **Issue Status Tracking** with real-time updates
+- **Upvoting System** for community prioritization
 
-![Dashboard Preview](./docs/screenshots/dashboard.png)
-*User dashboard with engagement statistics and quick actions*
+### 📊 **Advanced Dashboard**
+- **Tabbed Navigation** (Overview, My Reports, Timeline)
+- **Dynamic Statistics** with issue count and resolution rates
+- **Interactive Report Cards** with detailed information
+- **Advanced Filtering** by status, category, and search terms
+- **Timeline View** of user activities and submissions
+
+### 📄 **PDF Report Generation**
+- **Professional PDF Export** using jsPDF
+- **Detailed Report Information** including images and coordinates
+- **Branded Document Headers** with official formatting
+- **Downloadable Reports** for offline viewing and submission
+
+### 🎨 **UI/UX Excellence**
+- **Responsive Design** optimized for mobile, tablet, and desktop
+- **Global Theme System** with synchronized dark/light modes
+- **Framer Motion Animations** for smooth transitions
+- **Custom Cursor Effects** with interactive elements
+- **Toast Notifications** for user feedback
+
+---
 
 ## 🛠️ Tech Stack
 
 ### **Frontend**
-- ![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat&logo=react) **React** - UI library with hooks and context
-- ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.1.11-38B2AC?style=flat&logo=tailwind-css) **Tailwind CSS** - Utility-first styling
-- ![React Router](https://img.shields.io/badge/React%20Router-6.20.1-CA4245?style=flat&logo=react-router) **React Router DOM** - Client-side routing
-- ![AOS](https://img.shields.io/badge/AOS-2.3.4-00D8FF?style=flat) **AOS (Animate On Scroll)** - Scroll animations
-- ![Axios](https://img.shields.io/badge/Axios-1.6.2-5A29E4?style=flat&logo=axios) **Axios** - HTTP client for API requests
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| ![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat&logo=react) | **React** | UI library with hooks and context |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.1.11-38B2AC?style=flat&logo=tailwind-css) | **Tailwind CSS** | Utility-first styling framework |
+| ![React Router](https://img.shields.io/badge/React%20Router-6.20.1-CA4245?style=flat&logo=react-router) | **React Router DOM** | Client-side routing |
+| ![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-199900?style=flat&logo=leaflet) | **Leaflet.js** | Interactive maps |
+| ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-12.23.0-0055FF?style=flat&logo=framer) | **Framer Motion** | Animation library |
+| ![jsPDF](https://img.shields.io/badge/jsPDF-3.0.1-FF6B6B?style=flat) | **jsPDF** | PDF generation |
 
 ### **Backend**
-- ![Node.js](https://img.shields.io/badge/Node.js-Latest-339933?style=flat&logo=node.js) **Node.js** - Runtime environment
-- ![Express](https://img.shields.io/badge/Express-4.18.2-000000?style=flat&logo=express) **Express.js** - Web application framework
-- ![MongoDB](https://img.shields.io/badge/MongoDB-8.0.3-47A248?style=flat&logo=mongodb) **MongoDB** with Mongoose ODM
-- ![JWT](https://img.shields.io/badge/JWT-9.0.2-000000?style=flat&logo=jsonwebtokens) **JSON Web Tokens** - Authentication
-- ![bcrypt](https://img.shields.io/badge/bcrypt-2.4.3-3178C6?style=flat) **bcryptjs** - Password hashing
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| ![Node.js](https://img.shields.io/badge/Node.js-Latest-339933?style=flat&logo=node.js) | **Node.js** | Runtime environment |
+| ![Express](https://img.shields.io/badge/Express-4.18.2-000000?style=flat&logo=express) | **Express.js** | Web application framework |
+| ![MongoDB](https://img.shields.io/badge/MongoDB-8.0.3-47A248?style=flat&logo=mongodb) | **MongoDB** | NoSQL database |
+| ![Mongoose](https://img.shields.io/badge/Mongoose-8.0.3-880000?style=flat) | **Mongoose** | MongoDB ODM |
+| ![JWT](https://img.shields.io/badge/JWT-9.0.2-000000?style=flat&logo=jsonwebtokens) | **JSON Web Tokens** | Authentication |
+| ![Multer](https://img.shields.io/badge/Multer-2.0.1-FF6B6B?style=flat) | **Multer** | File upload handling |
 
 ### **Development Tools**
-- ![Vite](https://img.shields.io/badge/Vite-7.0.0-646CFF?style=flat&logo=vite) **Vite** - Build tool and dev server
-- ![ESLint](https://img.shields.io/badge/ESLint-9.29.0-4B32C3?style=flat&logo=eslint) **ESLint** - Code linting
-- ![Concurrently](https://img.shields.io/badge/Concurrently-8.2.2-5C6BC0?style=flat) **Concurrently** - Run multiple scripts
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| ![Vite](https://img.shields.io/badge/Vite-7.0.0-646CFF?style=flat&logo=vite) | **Vite** | Build tool and dev server |
+| ![ESLint](https://img.shields.io/badge/ESLint-9.29.0-4B32C3?style=flat&logo=eslint) | **ESLint** | Code linting |
+| ![Concurrently](https://img.shields.io/badge/Concurrently-8.2.2-5C6BC0?style=flat) | **Concurrently** | Run multiple scripts |
+
+---
 
 ## 📁 Project Structure
 
 ```
 civic-connect/
 ├── 📁 public/
-│   ├── civic-icon.png          # App icon
-│   └── vite.svg               # Vite logo
+│   ├── civic-icon.png              # App icon/logo
+│   └── vite.svg                   # Vite logo
 ├── 📁 server/
-│   └── server.js              # Express server with API routes
+│   └── server.js                  # Express server with all API routes
 ├── 📁 src/
 │   ├── 📁 components/
-│   │   ├── AuthModal.jsx      # Authentication modal
-│   │   ├── CustomCursor.jsx   # Animated cursor component
-│   │   ├── Dashboard.jsx      # Protected dashboard
-│   │   ├── Login.jsx          # Login form
-│   │   └── Register.jsx       # Registration form
+│   │   ├── AuthModal.jsx          # Authentication modal
+│   │   ├── CustomCursor.jsx       # Animated cursor component
+│   │   ├── Dashboard.jsx          # Main dashboard with tabs
+│   │   ├── Login.jsx              # Login form
+│   │   ├── Register.jsx           # Registration form
+│   │   ├── ReportIssuePage.jsx    # Issue reporting with map
+│   │   └── UserInfoPage.jsx       # User profile management
 │   ├── 📁 contexts/
-│   │   └── AuthContext.jsx    # Authentication state management
-│   ├── App.jsx                # Main app component
-│   ├── App.css                # Custom styles and animations
-│   ├── index.css              # Global styles
-│   └── main.jsx               # App entry point
-├── package.json               # Dependencies and scripts
-├── tailwind.config.js         # Tailwind configuration
-├── vite.config.js             # Vite configuration
-└── README.md                  # Project documentation
+│   │   └── AuthContext.jsx        # Authentication state management
+│   ├── 📁 hooks/
+│   │   └── useTheme.js            # Global theme management
+│   ├── App.jsx                    # Main app component
+│   ├── App.css                    # Custom styles and animations
+│   ├── index.css                  # Global styles
+│   └── main.jsx                   # App entry point
+├── 📁 uploads/                    # Server-side image storage
+├── .env                           # Environment variables
+├── package.json                   # Dependencies and scripts
+├── tailwind.config.js             # Tailwind configuration
+├── vite.config.js                 # Vite configuration
+└── README.md                      # Project documentation
 ```
+
+---
 
 ## ⚡ Installation & Setup
 
@@ -151,12 +198,12 @@ sudo systemctl start mongodb
 sudo systemctl enable mongodb
 ```
 
-#### **MongoDB Cloud (Alternative):**
-If you prefer using MongoDB Atlas:
-1. Create a free account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-2. Create a new cluster
-3. Get your connection string
-4. Update `MONGODB_URI` in your `.env` file
+### **Step 5: Create Upload Directory**
+```bash
+mkdir uploads
+```
+
+---
 
 ## 🚀 Running the Application
 
@@ -181,146 +228,210 @@ npm run dev
 - 🌐 **Frontend**: http://localhost:5173
 - 🔧 **Backend API**: http://localhost:3001/api
 
-![Authentication Flow](./docs/screenshots/auth-flow.gif)
-*Smooth authentication flow with form validation*
+---
 
 ## 📖 Usage Guide
 
-### **1. User Registration**
-1. Click the **"Sign Up"** button in the navigation
-2. Fill out the registration form:
-   - Enter a valid email address
-   - Create a strong password (minimum 6 characters with uppercase, lowercase, and numbers)
-   - Confirm your password
-3. Click **"Create Account"**
-4. You'll be automatically logged in and redirected to the dashboard
+### **1. User Registration & Login**
+1. Click **"Sign Up"** to create a new account
+2. Fill out the registration form with valid email and password
+3. Login with your credentials to access the dashboard
 
-### **2. User Login**
-1. Click the **"Login"** button in the navigation
-2. Enter your credentials
-3. Click **"Sign In"**
-4. Access your personalized dashboard
+### **2. Report an Issue**
+1. Navigate to **"Report Issue"** from the dashboard
+2. Allow location access for automatic positioning
+3. Click on the map to place a marker at the problem location
+4. Fill out the form:
+   - Select issue category (Pothole, Garbage, Street Light, etc.)
+   - Add detailed description (max 500 characters)
+   - Upload up to 5 images (5MB each)
+   - Address is auto-populated via reverse geocoding
+5. Submit the report
 
-### **3. Dashboard Features**
-- View your **civic engagement statistics**
-- Check your **recent activity** and issue reports
-- Use **quick action buttons** to report new issues
-- Track your **community impact points**
+### **3. View & Manage Issues**
+1. **Dashboard Overview**: See your statistics and recent activities
+2. **My Reports**: View all your submitted issues with filtering options
+3. **Timeline**: Track your engagement and issue resolution progress
+4. **Browse Map**: View all community issues on an interactive map
 
-### **4. Interactive Features**
-- **Custom Cursor**: Move your mouse to see the animated glow effect
-- **Scroll Animations**: Scroll through the page to see elements fade in with smooth animations
-- **Dark Mode**: Toggle between light and dark themes using the button in the navigation
+### **4. Download Reports**
+1. Go to **"My Reports"** tab in the dashboard
+2. Click **"Download PDF"** on any issue card
+3. Professional PDF report will be generated and downloaded
 
-## 🔧 Available Scripts
+---
 
-```bash
-# Development
-npm run dev              # Start frontend development server
-npm run dev:server       # Start backend server only
-npm run dev:full         # Start both frontend and backend
+## 🧪 API Documentation
 
-# Production
-npm run build           # Build for production
-npm run preview         # Preview production build
+### **Authentication Endpoints**
 
-# Code Quality
-npm run lint            # Run ESLint
+#### **Register User**
+```http
+POST /api/auth/register
+Content-Type: application/json
+
+{
+  "email": "user@example.com",
+  "password": "securePassword123",
+  "fullName": "John Doe"
+}
 ```
 
-## 🧪 Testing the API
+#### **Login User**
+```http
+POST /api/auth/login
+Content-Type: application/json
 
-You can test the API endpoints using curl or a tool like Postman:
-
-### **Registration**
-```bash
-curl -X POST http://localhost:3001/api/auth/register \
-  -H "Content-Type: application/json" \
-  -d '{"email":"test@example.com","password":"Test123"}'
+{
+  "email": "user@example.com",
+  "password": "securePassword123"
+}
 ```
 
-### **Login**
-```bash
-curl -X POST http://localhost:3001/api/auth/login \
-  -H "Content-Type: application/json" \
-  -d '{"email":"test@example.com","password":"Test123"}'
+### **Issue Management Endpoints**
+
+#### **Create Issue**
+```http
+POST /api/issues
+Authorization: Bearer <token>
+Content-Type: multipart/form-data
+
+{
+  "category": "Pothole",
+  "description": "Large pothole on Main Street",
+  "latitude": 40.7128,
+  "longitude": -74.0060,
+  "address": "123 Main St, New York, NY",
+  "images": [<file1>, <file2>]
+}
 ```
+
+#### **Get All Issues**
+```http
+GET /api/issues
+Authorization: Bearer <token>
+```
+
+#### **Get User Issues**
+```http
+GET /api/issues/my
+Authorization: Bearer <token>
+```
+
+#### **Upvote Issue**
+```http
+POST /api/issues/:id/upvote
+Authorization: Bearer <token>
+```
+
+### **User Management Endpoints**
+
+#### **Get User Profile**
+```http
+GET /api/users/profile
+Authorization: Bearer <token>
+```
+
+#### **Update User Profile**
+```http
+PUT /api/users/profile
+Authorization: Bearer <token>
+Content-Type: application/json
+
+{
+  "fullName": "Jane Doe",
+  "phone": "+1234567890",
+  "address": "456 Oak Ave, City, State"
+}
+```
+
+---
+
+## 🖼️ Screenshots
+
+### **Landing Page**
+<!-- ![Landing Page](./docs/screenshots/landing-page.png) -->
+*Coming Soon: Modern hero section with animated elements*
+
+### **Issue Reporting**
+<!-- ![Issue Reporting](./docs/screenshots/report-issue.png) -->
+*Coming Soon: Interactive map with location detection and form*
+
+### **Dashboard**
+<!-- ![Dashboard](./docs/screenshots/dashboard.png) -->
+*Coming Soon: Comprehensive dashboard with statistics and management*
+
+### **Mobile Experience**
+<!-- ![Mobile View](./docs/screenshots/mobile-view.png) -->
+*Coming Soon: Responsive design across all devices*
+
+---
+
+## 💡 Future Improvements
+
+### **Phase 1: Enhanced Features**
+- [ ] **Push Notifications** for issue status updates
+- [ ] **Email Notifications** for important events
+- [ ] **Admin Dashboard** for municipal authorities
+- [ ] **Issue Assignment** system for departments
+
+### **Phase 2: Advanced Functionality**
+- [ ] **PWA Support** for offline usage
+- [ ] **Real-time Chat** between citizens and authorities
+- [ ] **AI-powered Issue Categorization** using machine learning
+- [ ] **Geofencing** for location-based notifications
+
+### **Phase 3: Platform Expansion**
+- [ ] **Mobile Apps** for iOS and Android
+- [ ] **Multi-language Support** for diverse communities
+- [ ] **Integration APIs** for third-party municipal systems
+- [ ] **Advanced Analytics** dashboard with reporting
+
+---
 
 ## 🤝 Contributing
 
 We welcome contributions from the community! Here's how you can help:
 
 ### **Getting Started**
-1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/yourusername/civic-connect.git`
-3. **Create** a feature branch: `git checkout -b feature/amazing-feature`
-4. **Make** your changes
-5. **Test** your changes thoroughly
-6. **Commit** your changes: `git commit -m 'Add amazing feature'`
-7. **Push** to your branch: `git push origin feature/amazing-feature`
-8. **Open** a Pull Request
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Make your changes and commit: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
 
 ### **Contribution Guidelines**
-- 📝 Write clear, concise commit messages
-- 🧪 Add tests for new features
-- 📖 Update documentation as needed
-- 🎨 Follow the existing code style (ESLint configuration)
-- 🔍 Ensure your code passes all linting checks
+- Follow the existing code style and conventions
+- Write clear, descriptive commit messages
+- Add tests for new features
+- Update documentation as needed
+- Ensure all tests pass before submitting
 
-### **Areas for Contribution**
-- 🐛 **Bug Fixes**: Report and fix issues
-- ✨ **New Features**: Add civic engagement features
-- 🎨 **UI/UX Improvements**: Enhance user experience
-- 📱 **Mobile Optimizations**: Improve mobile responsiveness
-- 🌍 **Accessibility**: Make the app more accessible
-- 📝 **Documentation**: Improve guides and documentation
+### **Code of Conduct**
+Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming environment for all contributors.
 
-## 🚨 Troubleshooting
+---
 
-### **Common Issues**
+## 🐛 Bug Reports & Feature Requests
 
-**Port Already in Use:**
-```bash
-# Kill process on port 3001
-lsof -ti:3001 | xargs kill -9
+### **Reporting Bugs**
+If you find a bug, please create an issue with:
+- Clear description of the problem
+- Steps to reproduce
+- Expected vs actual behavior
+- Screenshots (if applicable)
+- Environment details (OS, browser, etc.)
 
-# Kill process on port 5173
-lsof -ti:5173 | xargs kill -9
-```
+### **Feature Requests**
+For new features, please include:
+- Detailed description of the feature
+- Use case and benefits
+- Possible implementation approach
+- Any relevant mockups or examples
 
-**MongoDB Connection Issues:**
-```bash
-# Check if MongoDB is running
-brew services list | grep mongodb
+---
 
-# Restart MongoDB
-brew services restart mongodb/brew/mongodb-community
-```
-
-**CORS Issues:**
-- Ensure backend is running on port 3001
-- Check that frontend is running on port 5173
-- Clear browser cache and cookies
-
-## 🚀 Deployment
-
-### **Frontend (Vercel)**
-1. Connect your GitHub repository to Vercel
-2. Set environment variables in Vercel dashboard
-3. Deploy automatically on push to main branch
-
-### **Backend (Railway/Heroku)**
-1. Create a new project on Railway or Heroku
-2. Connect your GitHub repository
-3. Set environment variables
-4. Deploy the backend
-
-### **Database (MongoDB Atlas)**
-1. Create a MongoDB Atlas cluster
-2. Update `MONGODB_URI` with Atlas connection string
-3. Whitelist deployment server IPs
-
-## 📄 License
+## 📃 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
@@ -338,40 +449,51 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 ```
-
-## 👨‍💻 Author & Credits
-
-**Created by**: [Your Name](https://github.com/yourusername)
-
-### **Acknowledgments**
-- 🎨 **UI Inspiration**: Modern civic engagement platforms
-- 📚 **Libraries**: Thanks to all the amazing open-source libraries used
-- 🌟 **Icons**: Civic icon from [source]
-- 🎬 **Animations**: AOS library for scroll animations
 
 ---
 
-### **Connect With Us**
+## 📬 Contact & Support
 
-- 📧 **Email**: [contact@civicconnect.com](mailto:contact@civicconnect.com)
-- 🐙 **GitHub**: [@yourusername](https://github.com/yourusername)
-- 🐦 **Twitter**: [@civicconnect](https://twitter.com/civicconnect)
-- 💬 **Discord**: [Join our community](https://discord.gg/civicconnect)
+### **Author**
+- **Name**: [Your Name]
+- **Email**: [your.email@example.com]
+- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- **Portfolio**: [Your Portfolio Website](https://yourportfolio.com)
+
+### **Support**
+- 📧 **Email Support**: support@civicconnect.com
+- 💬 **Discord Community**: [Join our Discord](https://discord.gg/civicconnect)
+- 📖 **Documentation**: [docs.civicconnect.com](https://docs.civicconnect.com)
+- 🐛 **Issue Tracker**: [GitHub Issues](https://github.com/yourusername/civic-connect/issues)
+
+---
+
+## 🌟 Acknowledgments
+
+Special thanks to:
+- **OpenStreetMap** for providing free map data
+- **Leaflet.js** community for excellent mapping libraries
+- **React** team for the amazing framework
+- **Tailwind CSS** for the utility-first CSS framework
+- **MongoDB** for the flexible database solution
+- **All contributors** who help improve this project
 
 ---
 
 <div align="center">
-
-**⭐ If you found this project helpful, please give it a star! ⭐**
-
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/civic-connect?style=social)](https://github.com/yourusername/civic-connect/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/civic-connect?style=social)](https://github.com/yourusername/civic-connect/network)
-
-Made with ❤️ for building better communities
-
+  <h3>🚀 Built with ❤️ for better communities</h3>
+  <p>
+    <a href="#-overview">Overview</a> •
+    <a href="#-features">Features</a> •
+    <a href="#-tech-stack">Tech Stack</a> •
+    <a href="#-installation--setup">Installation</a> •
+    <a href="#-api-documentation">API Docs</a> •
+    <a href="#-contributing">Contributing</a>
+  </p>
 </div>
+
+---
+
+*Last updated: December 2024*
