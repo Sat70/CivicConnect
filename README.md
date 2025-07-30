@@ -1,4 +1,4 @@
-# 🏙️ Local Civic Issue Reporter & Resolver Platform
+# 🏙️ Local Civic Issue Reporter & Resolver Platform(Under Progress)
 
 <div align="center">
   <img src="./public/civic-icon.png" alt="Civic Connect Logo" width="80" height="80">
